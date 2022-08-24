@@ -1,3 +1,6 @@
+// редактирование точки назначения
+
+
 import {createElement} from '../render.js';
 
 const createSortTemplate = () => (

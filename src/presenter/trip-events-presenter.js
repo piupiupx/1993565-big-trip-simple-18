@@ -1,5 +1,5 @@
-import WaypointListView from '../view/waypoint-list.js';
-import WaypointItemView from '../view/waypoint-item.js';
+import WaypointListView from '../view/waypoint-list-view.js';
+import WaypointItemView from '../view/waypoint-item-view.js';
 import SortView from '../view/sort-view.js';
 import FormEditView from '../view/form-edit-view.js';
 import {render} from '../render.js';
