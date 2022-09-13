@@ -1,8 +1,8 @@
 import {createElement} from '../render.js';
-import { humanizeHour, humanizeDate} from '../util.js';
+import { humanizeDate} from '../util.js';
 
 const createWaypointItemTemplate = (waypointitem) => {
-  const { basePrice, dateFrom, dateTo, offers} = waypointitem;
+  const { basePrice, dateFrom, /*dateTo,*/ offers} = waypointitem;
   const now = new Date().toLocaleTimeString().slice(0,-3);
   return `<li class="trip-events__item"><div class="event">
     <time class="event__date" datetime="${dateFrom}">${humanizeDate(dateFrom)}</time>

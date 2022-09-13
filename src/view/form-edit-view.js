@@ -2,7 +2,7 @@ import {createElement} from '../render.js';
 import { OFFERS_TYPE } from '../const.js';
 
 const createFormEditTemplate = (tripPoint) => {
-  const {basePrice, destination, dateFrom, dateTo, type, offers} = tripPoint;
+  const {basePrice, /*destination, dateFrom, dateTo,*/ type, /*offers*/} = tripPoint;
 
   const createType = (currentType) => OFFERS_TYPE.map((pointType) =>
     `<div class="event__type-item">
