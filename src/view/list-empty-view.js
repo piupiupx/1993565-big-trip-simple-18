@@ -14,7 +14,7 @@ const createEmptyTemplate = () => (
           -->
         </section>`);
 
-export default class SortView {
+export default class EmptyPageView {
   getTemplate() {
     return createEmptyTemplate();
   }
